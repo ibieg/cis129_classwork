@@ -1,4 +1,6 @@
 #ian bieg
+
+#aquire user age
 age = int(input('Enter your age: '))
 if age <= 0 or age >= 100:
     print('ERROR')
