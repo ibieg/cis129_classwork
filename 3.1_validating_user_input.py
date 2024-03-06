@@ -10,9 +10,10 @@ for student in range(10):
             passes = passes + 1
             break
         elif result == 2:
-            failures = failures + 1
             break
         else: print('try again')
+#calculate failures based off of passes
+failures = (student + 1) - passes
 # termination phase
 print('Passed:', passes)
 print('Failed:', failures)
